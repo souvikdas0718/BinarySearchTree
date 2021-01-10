@@ -255,7 +255,7 @@ public class SearchTree {
 
     }
 
-    //method called by printRecTree method to find and return the depth of the node passed
+    //method called by printRecTree method to find and return the depth of the node passed.
     public int findDepth(String key) {
         Node current = root;
         int dep = 1;
